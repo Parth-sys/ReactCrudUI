@@ -11,7 +11,7 @@ function Profile({data}){
 
   let navigate=useNavigate();
   const {id,name,Pic}=useParams();
-  console.log(name,Pic)
+
 
     return(
       <div>

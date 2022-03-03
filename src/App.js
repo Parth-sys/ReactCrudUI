@@ -4,7 +4,6 @@ import { Routes,Route } from 'react-router-dom'
 import List from './List';
 import Edit from './Edit';
 import Profile from './Profile';
-import Editprofile from './Editprofile';
 import { useEffect, useState } from 'react';
 
 
@@ -56,12 +55,7 @@ const users=()=>{
      <Route path="/Profile/:id" element={<Profile  data={People} />} /> 
    </Route>
 
-   <Route path="/Editprofile" element={<Editprofile/>}>
-
-     <Route path="/Editprofile/:id" element={<Editprofile/>} /> 
-   </Route>
-
-
+  
    <Route path="/"  element={<List></List>}  />
 
    </Routes>

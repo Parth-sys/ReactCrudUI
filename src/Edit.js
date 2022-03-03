@@ -11,10 +11,6 @@ export default function Edit({d,getUsers}){
 
   const {id,name,Pic}=useParams();
 
-    
-  
-  
-  
   
   
   
