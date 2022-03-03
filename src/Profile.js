@@ -10,7 +10,7 @@ function Profile({data}){
     
 
   let navigate=useNavigate();
-  const {id,name,Pic}=useParams();
+  const {id}=useParams();
 
 
     return(
